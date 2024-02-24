@@ -2,7 +2,7 @@ import { Sora } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Header from "@/components/Header";
-import TopLeftImg from "@/components/TopLeftImg";
+
 import Transition from "@/components/Transition";
 
 const sora = Sora({
@@ -23,7 +23,6 @@ export default function RootLayout({ children }) {
         className={`page bg-site text-white bg-cover bg-no-repeat ${sora.variable} font-sora relative`}
       >
         {" "}
-        <TopLeftImg />
         {/* <Nav /> */}
         <Header />
         {children}
