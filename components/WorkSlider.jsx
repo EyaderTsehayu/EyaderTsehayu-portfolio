@@ -1,92 +1,14 @@
-export const workSlides = {
-  slides: [
-    {
-      images: [
-        {
-          title: "title",
-          path: "/xclusivepay.jpg",
-          link: "https://web3-paypal-frontend.vercel.app/",
-        },
-        {
-          title: "title",
-          path: "/yarn_social_media_app.png",
-          link: "https://mern-social-media2-b24jrz91t-honeybadgerng.vercel.app/",
-        },
-
-        {
-          title: "title",
-          path: "/xclusiveproperties.png",
-          link: "https://xclusiveproperties.homes/",
-        },
-
-        {
-          title: "title",
-          path: "/resolvedecor.png",
-          link: "https://honeybadgerng.github.io/interor_decor_sample_site_1/",
-        },
-      ],
-    },
-    {
-      images: [
-        {
-          title: "title",
-          path: "/jentro_gadget_sitesample.png",
-          link: "https://honeybadgerng.github.io/gadgetsamplesite2/",
-        },
-        {
-          title: "title",
-          path: "/regalia_gadget_sample.png",
-          link: "https://honeybadgerng.github.io/gadgetsitesample1/",
-        },
-        {
-          title: "title",
-          path: "/yarn-decentralized-social-media-app.png",
-          link: "https://decentralized-social-media-app-three.vercel.app/",
-        },
-        {
-          title: "title",
-          path: "/thumb3.jpg",
-        },
-      ],
-    },
-    {
-      images: [
-        {
-          title: "title",
-          path: "/rjbxclusive.png",
-          link: "https://rjbxclusive.com/",
-        },
-        {
-          title: "title",
-          path: "/thumb1.jpg",
-        },
-        {
-          title: "title",
-          path: "/thumb2.jpg",
-        },
-        {
-          title: "title",
-          path: "/thumb3.jpg",
-        },
-      ],
-    },
-  ],
-};
-
 // import swiper react component
 import { Swiper, SwiperSlide } from "swiper/react";
 
-//
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
-// import required modules
 import { Pagination } from "swiper";
-
-// icons
 import { BsArrowRight } from "react-icons/bs";
 import Image from "next/image";
+import workSlides from "@/constants/projectsData";
 
 const WorkSlider = () => {
   return (
