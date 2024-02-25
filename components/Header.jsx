@@ -8,10 +8,11 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-center gap-y-6 py-8">
           <Link href={"/"}>
-            <div className="">
+            <div className="cursor-pointer">
               <span className="font-semibold text-3xl tracking-wide ">
                 Eyader
               </span>{" "}
+              &nbsp;
               <span className="font-extralight text-3xl">Tsehayu</span>{" "}
               <span className="text-blue-600 font-bold text-3xl">.</span>
             </div>
