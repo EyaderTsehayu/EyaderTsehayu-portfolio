@@ -22,7 +22,7 @@ const Services = () => {
               exit="hidden"
               className="h2 xl:mt-8"
             >
-              My services <span className="text-accent">.</span>
+              My <span className="text-blue-600">Services</span>.
             </motion.h2>
             <motion.p
               variants={fadeIn("up", 0.4)}
@@ -31,8 +31,13 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              As a full-stack developer, I offer a range of services to help you
-              build and enhance your web projects.
+              As a full-stack developer, I extend a comprehensive suite of
+              services to empower the evolution and enrichment of your web
+              projects. <br />
+              Whether you're initiating a new venture or seeking to optimize
+              existing solutions, I bring expertise in every layer of
+              development to ensure your digital journey is seamless and
+              successful.
             </motion.p>
           </div>
           <motion.div
