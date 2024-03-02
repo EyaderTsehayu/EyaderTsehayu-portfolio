@@ -13,7 +13,7 @@ const Contact = () => {
   };
   return (
     <div className="h-full bg-primary/30">
-      <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full">
+      <div className="container mx-auto py-32 text-center xl:text-left flex justify-center h-full">
         {/* text & form */}
         <div className="flex flex-col w-full max-w-[700px]">
           {/* text */}
@@ -36,6 +36,7 @@ const Contact = () => {
             target="_blank"
             onSubmit={onSubmit}
             //   action="https://formsubmit.co/13e1273f5b7a4c1bb177d4b64550c7f8"
+            action="https://formsubmit.co/eyaderts@gmail.com"
             method="POST"
           >
             {/* input group */}
