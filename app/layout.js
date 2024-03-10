@@ -25,8 +25,8 @@ export default function RootLayout({ children }) {
         {" "}
         {/* <Nav /> */}
         <Header />
-        {children}
         <Transition />
+        {children}
       </body>
     </html>
   );
