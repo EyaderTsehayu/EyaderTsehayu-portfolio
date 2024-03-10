@@ -7,12 +7,19 @@ import Circles from "@/components/Circles";
 import CountUp from "react-countup";
 //  data
 import aboutData from "@/constants/aboutData";
+import ParticlesContainer from "@/components/ParticlesContainer";
 
 const About = () => {
   const [index, setIndex] = useState(0);
   return (
-    <div className="h-full bg-primary/60  py-32 text-center xl:text-left">
-      <Circles />
+    <div className="h-full bg-primary/60  py-32 text-center xl:text-left overflow-y-auto ">
+      <div className="hidden sm:block">
+        <ParticlesContainer />
+      </div>
+
+      <div className="hidden sm:block">
+        <Circles />
+      </div>
 
       <motion.div
         variants={fadeIn("down", 0.2)}
@@ -23,7 +30,7 @@ const About = () => {
       >
         <Avatar />
       </motion.div>
-      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
+      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 ">
         {/* text */}
         <div className="flex-1 flex flex-col justify-center gap-2  z-10">
           <motion.h2
@@ -103,7 +110,7 @@ const About = () => {
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="flex  flex-col w-full xl:max-w-[48%] h-[480px]"
+          className="flex  flex-col w-full xl:max-w-[48%] h-[480px] "
         >
           <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
             {aboutData.map((item, itemIndex) => {
