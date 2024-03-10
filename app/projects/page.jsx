@@ -4,11 +4,18 @@ import { fadeIn } from "@/variants";
 import Circles from "@/components/Circles";
 import WorkSlider from "@/components/WorkSlider";
 import Bulb from "@/components/Bulb";
+import ParticlesContainer from "@/components/ParticlesContainer";
+
 const Projects = () => {
   return (
-    <div className="h-full bg-primary/30 py-36 flex items-center">
-      <Circles />
-      <div className="container mx-auto">
+    <div className="h-full bg-primary/30 py-32 md:py-40 overflow-y-auto ">
+      <div className="hidden sm:block">
+        <ParticlesContainer />
+      </div>
+      <div className="hidden sm:block">
+        <Circles />
+      </div>
+      <div className="container mx-auto h-full   items-center xl:flex-row gap-x-6 ">
         <div className="flex flex-col xl:flex-row gap-x-8">
           {/* text */}
           <div className="text-center flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0">
