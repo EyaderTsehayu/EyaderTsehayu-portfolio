@@ -18,16 +18,16 @@ const WorkSlider = () => {
         clickable: true,
       }}
       modules={[Pagination]}
-      className="h-[280px] sm:h-[480px]"
+      className="h-auto"
     >
       {workSlides.slides.map((slide, index) => {
         return (
           <SwiperSlide key={index}>
-            <div className="grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer">
+            <div className="grid md:grid-cols-2 md:grid-rows-2 grid-cols-1 items-baseline justify-start grid-rows-1 gap-4 cursor-pointer  pb-4">
               {slide.images.map((image, index) => {
                 return (
                   <div
-                    className="relative rounded-lg overflow-hidden flex items-center justify-center group"
+                    className="relative rounded-lg overflow-hidden flex items-center justify-center group flex-col"
                     key={index}
                   >
                     <div className="flex items-center justify-center relative overflow-hidden group">
@@ -79,6 +79,7 @@ const WorkSlider = () => {
                         </div>
                       </div>
                     </div>
+                    <div>{image.description}</div>
                   </div>
                 );
               })}
