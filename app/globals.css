@@ -8,16 +8,20 @@
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets
   .swiper-pagination-bullet {
-  background-color: #f13024;
+  background-color: #fff;
 }
 
 .swiper-button-next:after,
 .swiper-button-prev:after,
 .swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after {
-  color: #f13024;
+  color: #4a45e4;
 }
-
+.swiper-pagination-bullets {
+  display: flex;
+  gap: 8px; /* Adjust the gap as needed */
+  justify-content: center; /* Optional: center the pagination dots */
+}
 @layer base {
   body {
     @apply bg-secondary overflow-hidden leading-relaxed;
