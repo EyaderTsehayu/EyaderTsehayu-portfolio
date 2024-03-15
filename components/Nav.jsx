@@ -16,7 +16,15 @@ const Nav = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  return (
+  const handleButtonClick = () => {
+    // URL to open in a new tab
+    const url =
+      "https://drive.google.com/file/d/1rOj6ez5GxC3LasK117JljRbr-lMF50so/view";
+
+    // Open the URL in a new tab
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
+  https: return (
     <div className="flex items-center justify-between xl:flex xl:items-center xl:gap-x-5 text-lg xl:pb-3">
       <div className="hidden xl:flex items-center gap-x-7">
         <Link
@@ -44,7 +52,7 @@ const Nav = () => {
           Contact
         </Link>{" "}
         <button
-          onClick={() => {}}
+          onClick={handleButtonClick}
           className="flex flex-row gap-2 items-center bg-blue-600 rounded-lg hover:bg-blue-500 py-2 px-3  transition-all duration-300"
         >
           Resume <FaDownload />
@@ -96,18 +104,15 @@ const Nav = () => {
               Contact
             </Link>
             <button
-              onClick={toggleMobileMenu}
+              onClick={() => {
+                toggleMobileMenu();
+                handleButtonClick();
+              }}
               className="flex flex-row gap-2 items-center bg-blue-600 rounded-lg hover:bg-blue-500 py-2 px-3  transition-all duration-300"
             >
               Resume <FaDownload />
             </button>
           </div>
-          {/* <div>
-            <p>
-              Developed with <IoHeart color="blue" size={24} /> by Eyader
-              Tsehayu
-            </p>
-          </div> */}
         </div>
       )}
     </div>
