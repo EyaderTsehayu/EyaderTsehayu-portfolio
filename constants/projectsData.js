@@ -5,18 +5,25 @@ const workSlides = {
         {
           title: "title",
           path: "/thumb1.jpg",
+          description:
+            "   hello there this is the description hello there this isthe description hello there this is the description hellothere this is the description hello there this is the description hello there this.",
         },
         {
           title: "title",
           path: "/thumb2.jpg",
+          description:
+            "   hello there this is the description hello there this is the description hello there this is the description.",
         },
         {
           title: "title",
           path: "/thumb3.jpg",
+          description:
+            "   hello there this is the description hello there this is the description hello there this is the description hello there this is the description hello there this is the description hello there this.",
         },
         {
           title: "title",
           path: "/thumb3.jpg",
+          description: "   hello there this is the description hello.",
         },
       ],
     },
