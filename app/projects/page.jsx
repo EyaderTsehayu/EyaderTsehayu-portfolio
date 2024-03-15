@@ -8,7 +8,7 @@ import ParticlesContainer from "@/components/ParticlesContainer";
 
 const Projects = () => {
   return (
-    <div className="h-full bg-primary/30 py-32 md:py-40 overflow-y-auto ">
+    <div className="h-full bg-primary/30 py-32 md:py-40 overflow-y-auto scrollbar-none">
       <div className="hidden sm:block">
         <ParticlesContainer />
       </div>
