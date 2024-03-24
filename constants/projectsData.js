@@ -4,25 +4,25 @@ const workSlides = {
       images: [
         {
           title: "title",
-          path: "/thumb1.jpg",
+          path: "/mkss-portfolio cover.png",
           description:
             "   hello there this is the description hello there this isthe description hello there this is the description hellothere this is the description hello there this is the description hello there this.",
         },
         {
           title: "title",
-          path: "/thumb2.jpg",
+          path: "/promptex-portfolio cover.png",
           description:
             "   hello there this is the description hello there this is the description hello there this is the description.",
         },
         {
           title: "title",
-          path: "/thumb3.jpg",
+          path: "/qr-menu-portfolio cover.png",
           description:
             "   hello there this is the description hello there this is the description hello there this is the description hello there this is the description hello there this is the description hello there this.",
         },
         {
           title: "title",
-          path: "/thumb3.jpg",
+          path: "/gpt-3-portfolio cover.png",
           description: "   hello there this is the description hello.",
         },
       ],
@@ -31,7 +31,9 @@ const workSlides = {
       images: [
         {
           title: "title",
-          path: "/thumb1.jpg",
+          path: "/portfolio cover.png",
+          description:
+            "  hello there this is the description hello there this is the description hello there this is the description hello there this is the description hello there this is the description hello there this.",
         },
         {
           title: "title",
