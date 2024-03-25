@@ -24,7 +24,7 @@ const Projects = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="h2 xl:mt-12"
+              className="h2 xl:mt-12 font-bold"
             >
               My <span className="text-blue-600"> Projects</span>.
             </motion.h2>

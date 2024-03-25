@@ -15,10 +15,10 @@ export default function Home() {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className=" h1"
+            className="h1 font-poppins font-bold"
           >
             Ideas Engineered <br />
-            Into <span className="text-blue-600">Digital Horizons</span>{" "}
+            Into <span className="text-blue-600 ">Digital Horizons</span>{" "}
           </motion.h1>
           <motion.p
             variants={fadeIn("down", 0.3)}

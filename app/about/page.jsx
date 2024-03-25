@@ -38,7 +38,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h2"
+            className="h2 font-bold"
           >
             Driven by
             <span className="text-blue-600"> innovation</span> <br />
