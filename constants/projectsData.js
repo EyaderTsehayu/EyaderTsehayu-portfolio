@@ -3,69 +3,49 @@ const workSlides = {
     {
       images: [
         {
-          title: "title",
+          title: "MKSS Reg & Ctrl",
           path: "/mkss-portfolio cover.png",
+          githubUrl:
+            "https://github.com/EyaderTsehayu/MK-SundaySchool-Reg-Ctrl",
+          domainUrl: "https://mk-sunday-school-reg-ctrl.vercel.app/",
           description:
-            "   hello there this is the description hello there this isthe description hello there this is the description hellothere this is the description hello there this is the description hello there this.",
+            "Members registration and controling system for Debereselam Beale Egziabher church Mahiteme Kirstos Sunday School.",
         },
         {
-          title: "title",
+          title: "Promptex",
           path: "/promptex-portfolio cover.png",
+          githubUrl: "https://github.com/EyaderTsehayu/promptex",
+          domainUrl: "https://alx-promptex-86z5cfe2m-eyadertsehayu.vercel.app/",
           description:
-            "   hello there this is the description hello there this is the description hello there this is the description.",
+            "A propmpt sharing plaform that helps for discovering, exploring and sharing prompts for the emerging AI world.",
         },
         {
-          title: "title",
+          title: "QR Menu",
           path: "/qr-menu-portfolio cover.png",
+          githubUrl: "https://github.com/EyaderTsehayu/QR-Menu",
+          domainUrl: "https://qr-menu-eyader.vercel.app/",
           description:
-            "   hello there this is the description hello there this is the description hello there this is the description hello there this is the description hello there this is the description hello there this.",
+            "QR-based digital menu solution for restaurants and hotels, providing convenient access to menus and revolutionize dining experiences. ",
         },
         {
-          title: "title",
+          title: "GPT-3",
           path: "/gpt-3-portfolio cover.png",
-          description: "   hello there this is the description hello.",
-        },
-      ],
-    },
-    {
-      images: [
-        {
-          title: "title",
-          path: "/portfolio cover.png",
+          githubUrl: "https://github.com/EyaderTsehayu/GPT-3",
+          domainUrl: "https://gpt-3-lemon.vercel.app/",
           description:
-            "  hello there this is the description hello there this is the description hello there this is the description hello there this is the description hello there this is the description hello there this.",
-        },
-        {
-          title: "title",
-          path: "/thumb2.jpg",
-        },
-        {
-          title: "title",
-          path: "/thumb3.jpg",
-        },
-        {
-          title: "title",
-          path: "/thumb3.jpg",
+            "UI/UX showcase website for GPT-3, highlighting its capabilities through intuitive design and seamless navigation.",
         },
       ],
     },
     {
       images: [
         {
-          title: "title",
-          path: "/thumb1.jpg",
-        },
-        {
-          title: "title",
-          path: "/thumb2.jpg",
-        },
-        {
-          title: "title",
-          path: "/thumb3.jpg",
-        },
-        {
-          title: "title",
-          path: "/thumb3.jpg",
+          title: "My Portfolio",
+          path: "/portfolio cover.png",
+          githubUrl: "https://github.com/EyaderTsehayu/EyaderTsehayu-portfolio",
+          domainUrl: "",
+          description:
+            "Portfolio website, that  showcases my skills and projects elegantly, and also drives opportunities and connections.",
         },
       ],
     },
