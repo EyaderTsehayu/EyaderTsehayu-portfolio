@@ -5,7 +5,7 @@ import Nav from "./Nav";
 
 const Header = () => {
   return (
-    <header className="absolute z-30 w-full flex items-center px-16 xl:px-0 xl:h-[90px]">
+    <header className="absolute z-30 w-full flex items-center px-16 xl:px-0 xl:h-[90px]  bg-primary/30 ">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-center lg:gap-y-6 gap-y-2 lg:py-8 py-8">
           <Link href={"/"}>
