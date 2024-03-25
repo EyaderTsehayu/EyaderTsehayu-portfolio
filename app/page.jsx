@@ -25,12 +25,12 @@ export default function Home() {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+            className=" text-justify max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores
-            quia consequuntur atque praesentium iusto optio aliquam amet neque
-            quo inventore numquam quae animi ipsam autem, ratione vero id
-            dolores.
+            As an enthusiastic software engineer, I specialize in both web and
+            mobile development. With a passion for creating innovative
+            solutions, I blend creativity with technical expertise to build
+            user-friendly experiences that drive engagement and satisfaction.
           </motion.p>
           <div className="flex justify-center xl:hidden relative">
             <ProjectsBtn />
