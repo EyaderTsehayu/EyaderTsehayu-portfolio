@@ -28,12 +28,12 @@ const workSlides = {
             "QR-based digital menu solution for restaurants and hotels, providing convenient access to menus and revolutionize dining experiences. ",
         },
         {
-          title: "GPT-3",
-          path: "/gpt-3-portfolio cover.png",
-          githubUrl: "https://github.com/EyaderTsehayu/GPT-3",
-          domainUrl: "https://gpt-3-lemon.vercel.app/",
+          title: "Habeshan Pod",
+          path: "/habeshan pod-portfolio cover.png",
+          githubUrl: "https://github.com/EyaderTsehayu/Habeshan-Pod",
+          domainUrl: "",
           description:
-            "UI/UX showcase website for GPT-3, highlighting its capabilities through intuitive design and seamless navigation.",
+            "Mobile app built with react native that enables users to discover, share and enjoy podcasts with their favorite genre.",
         },
       ],
     },
@@ -46,6 +46,14 @@ const workSlides = {
           domainUrl: "",
           description:
             "Portfolio website, that  showcases my skills and projects elegantly, and also drives opportunities and connections.",
+        },
+        {
+          title: "GPT-3",
+          path: "/gpt-3-portfolio cover.png",
+          githubUrl: "https://github.com/EyaderTsehayu/GPT-3",
+          domainUrl: "https://gpt-3-lemon.vercel.app/",
+          description:
+            "UI/UX showcase website for GPT-3, highlighting its capabilities through intuitive design and seamless navigation.",
         },
       ],
     },
